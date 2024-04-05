@@ -14,7 +14,7 @@
 
 .menu {
     display: flex;
-    width: 1200px;
+    width: 900px;
     justify-content: space-between;
 }
 
@@ -34,4 +34,47 @@
 .header-link-two,
 .header-link-three {
     margin-left: 20px;
+}
+
+.header-container {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text {
+    color: #F9FAF8;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn-sign-up {
+    background-color: #3882F6;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+
+.header-image {
+    width: 900px;
+    height: 250px;
 }
