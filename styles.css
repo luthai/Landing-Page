@@ -118,7 +118,7 @@
     height: 120px;
 }
 
-figcaption {
+.info-img-caption {
     color: #828486;
     margin-top: 10px;
     font-size: 12px;
@@ -126,4 +126,33 @@ figcaption {
     text-align: left;
     display: table-caption;
     caption-side: bottom;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-caption {
+    width: 900px;
+    height: 400px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 25px;
+    font-weight:bold;
+    text-align: right;
 }
